@@ -24,7 +24,7 @@ function App() {
           messages: [
             {
               role: "system",
-              content: "Podawaj poprawne odpowiedzi na pytania bez wyjaśniania możliwie jak naj krócej."
+              content: "Podaj poprawne odpowiedzi na pytania bez wyjaśniania możliwie jak najkrócej."
             },
             {
               role: "user",
