@@ -63,14 +63,7 @@ function App() {
         }
       ]
     })
-
-    // response.choices[0].message.content
     if (response.choices[0].message.content) {
-      // navigator.clipboard.writeText(response.choices[0].message.content).then(() => {
-      //   console.log('Answer copied to clipboard');
-      // }).catch(err => {
-      //   console.error('Failed to copy to clipboard:', err);
-      // });
       inputInHTML(tab, response.choices[0].message.content)
     } else {
       inputInHTML(tab, "Answer Error")
